@@ -3,7 +3,7 @@ import "./signin.css";
 import {FcGoogle} from "react-icons/fc";
 import {BsApple} from "react-icons/bs";
 
-export default function Signin() {
+export default function Signin({ setClick}) {
   return (
     <div className="sign-in">
       <div className="left">
@@ -29,7 +29,7 @@ export default function Signin() {
             <span className="password">Password</span>
             <input type="text" className="password-input" placeholder="Enter the password" />
             <span className="forgot"> Forgot Password</span>
-            <button className="signin-button">Sign In</button>
+            <button className="signin-button" onClick={() => setClick(true)}>Sign In</button>
           </div>
           <span className="register-text">Don't have an account? <span className="register">Register here</span> </span>
         </div>

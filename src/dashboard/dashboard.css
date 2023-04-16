@@ -1,4 +1,96 @@
 .dashboard{
+    display: flex;
+    background: #DDDDDD;
+}
+.dashboard-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: black;
-    color: white;
+    color: white ;
+    width: 17%;
+    border-radius: 30px;
+    height: 90vh;
+    margin: 40px;
+    margin-top: 30px;
+}
+.dashboard-left-heading{
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.dash, .transaction, .schedule, .user, .setting{
+    display: flex;
+    gap: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.dash{
+    font-weight: 700;
+}
+.help{
+    position: absolute;
+    left: 5%;
+    top: 84%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.contact{
+    position: absolute;
+    left: 5%;
+    top: 87.92%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.topbar{
+    display: flex;
+    align-items: center;
+    gap: 900px;
+    margin-top: 30px;
+}
+.topbar h1{
+    font-size: 24px;
+}
+.topbar-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.search-box{
+    border: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    width: 160px;
+    padding: 5px 12px;
+    color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+.bell{
+    color: rgba(0,0,0,1);
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.dp{
+    width: 30px;
+    border-radius: 50%;
 }
