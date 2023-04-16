@@ -1,0 +1,133 @@
+.sign-in{
+    display: flex;
+    height: 100vh;
+}
+.left{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.heading-left{
+    margin: auto;
+    font-size: 4vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.right{
+    width: 60%;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin: auto;
+    padding: 10px;
+}
+.heading-right{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+}
+.message{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.auth{
+    display: flex;
+    gap: 20px;
+}
+.auth-google, .auth-apple{
+    padding: 8px 20px;
+    margin: 20px 5px;
+    display: flex;
+    gap: 8px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+}
+.icons{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.sign-in-box{
+    padding: 40px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 8px;
+}
+.email, .password{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.email-input, .password-input{
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    margin-bottom: 7px;
+    outline: none;
+}
+.forgot{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #346BD4;
+    margin: 10px 0px;
+}
+.signin-button{
+    height: 40px;
+    color: white;
+    background: #000000;
+    border-radius: 10px;
+    padding: 3px 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.register-text{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-left: 20%;
+    padding-top: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 750px;
+    top: 670px;
+}
+.register{
+    color: #346BD4;
+}
+
+
+@media (max-width: 768px){
+    .heading-left{
+        font-size: 6vw;
+    }
+}
