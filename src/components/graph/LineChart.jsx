@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import Chart from 'chart.js/auto';
+import { BiChevronDown } from 'react-icons/bi'
 import "./graph.css"
 
 const MyLineChart = () => {
@@ -58,6 +59,7 @@ const MyLineChart = () => {
     <div className='line' style={{ height: '300px' }}>
       <h2 className="lineChart-heading">Activities</h2>
         <span className="date">May-June 2021</span>
+        <BiChevronDown />
       <canvas ref={chartRef}></canvas>
     </div>
   );

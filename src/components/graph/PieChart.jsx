@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import Chart from "chart.js/auto";
+import { BiChevronDown } from 'react-icons/bi'
 import "./graph.css"
 
 const MyPieChart = () => {
@@ -9,11 +10,11 @@ const MyPieChart = () => {
     const myChart = new Chart(chartRef.current, {
       type: "pie",
       data: {
-        labels: ["Label 1", "Label 2", "Label 3"],
+        labels: ["Super Hoodies", "Custom Short Pants", "Basic Tees"],
         datasets: [
           {
             data: [10, 20, 30],
-            backgroundColor: ["red", "green", "blue"],
+            backgroundColor: ["#EE8484", "#F6DC7D", "#98D89E"],
           },
         ],
       },
@@ -42,10 +43,10 @@ const MyPieChart = () => {
   }, []);
 
   return (
-    <div className="pieChart" style={{ height: '200px', width:'350px' }}>
+    <div className="pieChart" style={{ height: '200px', width:'400px' }}>
       <div className="pie-topbar">
         <h2 className="pie-heading">Top Products</h2>
-        <span className="date">May-June 2021</span>
+        <span className="date">May-June 2021 <BiChevronDown /> </span>
       </div>
       <canvas ref={chartRef}></canvas>
     </div>
