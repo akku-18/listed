@@ -1,7 +1,50 @@
-.graph-container{
+.lineChart-heading{
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+.date{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.line{
     border-radius: 20px;
-    padding: 10px;
-    background: white;
+    padding: 30px;
+    background:white;
     border-radius: 20px;
     margin-top: 40px;
+}
+
+.top-products{
+    margin: 10px 0px -10px 20px;
+    padding: 0;
+}
+
+.pieChart{
+    padding: 10px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 20px;
+    /* width: 30%; */
+    /* height: 160px; */
+}
+
+.pie-topbar{
+    display: flex;
+    justify-content: space-between;
+}
+.pie-heading{
+    margin: 0;
+    padding: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
 }

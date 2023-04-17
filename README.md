@@ -68,3 +68,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+const data = {
+    labels: ['0', 'Week 1', 'Week 2', 'Week 3', 'Week 4'],
+    datasets: [
+        {
+          label: 'Guest', // Label for the first line
+          data: [100, 400, 200, 400, 200],
+          fill: false,
+          borderColor: '#9BDD7C',
+          tension: 0.1
+        },
+        {
+          label: 'User', // Label for the second line
+          data: [100, 200, 300, 200, 300],
+          fill: false,
+          borderColor: '#E9A0A0',
+          tension: 0.1
+        }
+      ]
+  };

@@ -11,7 +11,10 @@ import { BsCashCoin } from "react-icons/bs";
 import dp from "./Alan DP.png";
 import "./dashboard.css";
 import { useAuth0 } from "@auth0/auth0-react";
-import Graph from "../graph/Graph";
+import PieChart from "../graph/PieChart";
+import LineChart from "../graph/LineChart";
+// import LineChart2 from "../graph/LineChart2";
+
 
 
 export default function Dashboard() {
@@ -99,7 +102,9 @@ export default function Dashboard() {
             <FiUsers className="card-svg" />
           </div>
         </div>
-        <Graph />
+        <LineChart />
+        {/* <LineChart2 /> */}
+        <PieChart />
       </div>
     </div>
   );
