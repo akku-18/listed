@@ -94,3 +94,53 @@
     width: 30px;
     border-radius: 50%;
 }
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card{
+    width: 19%;
+    display: flex;
+    background: #DDEFE0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    font-family: 'Lato';
+    height: 120px;
+}
+.card-left{
+    margin-left: 25px;
+}
+
+.card-heading{
+    font-size: 18px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    /* margin-bottom: -10px; */
+}
+.card-amount{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+}
+.card-svg{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-right: 25px;
+}
+
+#transaction{
+    background: #F4ECDD;
+}
+#likes{
+    background: #EFDADA;
+}
+#users{
+    background: #DEE0EF;
+}
