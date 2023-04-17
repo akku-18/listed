@@ -1,6 +1,6 @@
 import React from "react";
-import Signin from "./signIn/Signin";
-import Dashboard from "./dashboard/Dashboard";
+import Signin from "./components/signIn/Signin";
+import Dashboard from "./components/dashboard/Dashboard";
 import { useAuth0 } from "@auth0/auth0-react";
 
 

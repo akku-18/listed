@@ -11,6 +11,7 @@ import { BsCashCoin } from "react-icons/bs";
 import dp from "./Alan DP.png";
 import "./dashboard.css";
 import { useAuth0 } from "@auth0/auth0-react";
+import Graph from "../graph/Graph";
 
 
 export default function Dashboard() {
@@ -98,6 +99,7 @@ export default function Dashboard() {
             <FiUsers className="card-svg" />
           </div>
         </div>
+        <Graph />
       </div>
     </div>
   );
