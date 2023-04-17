@@ -10,8 +10,12 @@ import { FiUsers } from "react-icons/fi";
 import { BsCashCoin } from "react-icons/bs";
 import dp from "./Alan DP.png";
 import "./dashboard.css";
+import { useAuth0 } from "@auth0/auth0-react";
+
 
 export default function Dashboard() {
+  const {  logout } = useAuth0();
+
   return (
     <div className="dashboard">
       <div className="dashboard-left">
@@ -52,7 +56,11 @@ export default function Dashboard() {
         <div className="topbar">
           <h1>Dashboard</h1>
           <div className="topbar-right">
-            <button className="search-box">
+            <button className="search-box"  
+              onClick={() =>
+                logout({ logoutParams: { returnTo: window.location.origin } })
+              }
+            >
               Search...
               <AiOutlineSearch />
             </button>
