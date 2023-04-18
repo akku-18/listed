@@ -43,7 +43,7 @@ const MyPieChart = () => {
   }, []);
 
   return (
-    <div className="pieChart" style={{ height: '200px', width:'400px' }}>
+    <div className="pieChart" style={{ height: '200px', width:'500px' }}>
       <div className="pie-topbar">
         <h2 className="pie-heading">Top Products</h2>
         <span className="date">May-June 2021 <BiChevronDown /> </span>

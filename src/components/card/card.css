@@ -1,0 +1,71 @@
+.schedule-card{
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.schedule-card-container{
+    padding: 20px 40px;
+}
+
+.card-topbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todays-schedule{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.seeAll{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.box1{
+    margin-top: 30px;
+    border-left: 5px solid #9BDD7C;
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+}
+.box2{
+    margin-top: 20px;
+    border-left: 5px solid #6972C4;
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+}
+
+.task{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 5px 0 1px 10px;
+    margin-bottom: 2px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.schedule-time{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 5px 0 1px 10px;
+    margin-bottom: 2px;
+}
+.place{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 5px 0 1px 10px;
+}
