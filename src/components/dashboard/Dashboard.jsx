@@ -61,16 +61,15 @@ export default function Dashboard() {
         <div className="topbar">
           <h1>Dashboard</h1>
           <div className="topbar-right">
-            <button className="search-box"  
-              onClick={() =>
-                logout({ logoutParams: { returnTo: window.location.origin } })
-              }
-            >
-              Search...
+            <button className="search-box">
+               Search...
               <AiOutlineSearch />
             </button>
             <BsBell className="bell" />
             <img src={dp} alt="" className="dp" />
+            <button className="logout" onClick={() =>
+                logout({ logoutParams: { returnTo: window.location.origin } })
+              }>Logout</button>
           </div>
         </div>
         <div className="cards">

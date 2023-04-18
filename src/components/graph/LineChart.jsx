@@ -67,7 +67,7 @@ const MyLineChart = () => {
   }, []);
 
   return (
-    <div className="line" style={{ height: "300px" }}>
+    <div className="line" >
       <h2 className="lineChart-heading">Activities</h2>
       <span className="date">
         May-June 2021 <BiChevronDown />

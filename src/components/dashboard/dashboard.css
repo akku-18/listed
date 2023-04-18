@@ -1,5 +1,6 @@
 .dashboard{
     display: flex;
+    justify-content: space-around;
     background: #eeeeee;
 }
 .dashboard-left{
@@ -55,10 +56,16 @@
     line-height: 17px;
 }
 
+.dashboard-right{
+    width: 70%;
+    margin-left: -70px;
+}
+
 .topbar{
     display: flex;
     align-items: center;
-    gap: 900px;
+    /* gap: 800px; */
+    justify-content: space-between;
     margin-top: 20px;
 }
 .topbar h1{
@@ -90,7 +97,15 @@
     font-weight: 700;
     font-size: 19px;
 }
-
+.logout{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 9px;
+    font-size: 13px;
+    cursor: pointer;
+}
 .dp{
     width: 30px;
     border-radius: 50%;
@@ -151,4 +166,30 @@
     display: flex;
     justify-content:space-around;
     margin-bottom: 15px;
+}
+
+@media (max-width: 768px){
+    .dashboard-left{
+        display: none;
+    }
+    .topbar h1{
+        font-size: 18px;
+    }
+    .topbar-right{
+        gap: 10px;
+    }
+    .search-box{
+        width: 120px;
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    .bell{
+        font-size: 15px;
+    }
+    .dp{
+        width: 20px;
+    }
+    .logout{
+        font-size: 10px;
+    }
 }

@@ -13,6 +13,7 @@
     background:white;
     border-radius: 20px;
     margin-top: 20px;
+    height: 300px;
 }
 .date{
     font-family: 'Montserrat';
@@ -48,4 +49,10 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
+}
+
+@media (max-width: 768px){
+    .line{
+        height: 70px;
+    }
 }
