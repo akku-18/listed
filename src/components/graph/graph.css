@@ -35,6 +35,8 @@
     margin-top: 20px;
     background: white;
     border-radius: 20px;
+    height: 200px;
+    width: 500px;
 }
 
 .pie-topbar{
@@ -53,6 +55,20 @@
 
 @media (max-width: 768px){
     .line{
-        height: 70px;
+        height: 120px;
+        width: 100%;
+    }
+    .lineChart-heading{
+        font-size: 14px;
+    }
+    .pieChart{
+        height: 80px;
+        width: 90%;
+    }
+    .pie-heading{
+        font-size: 14px;
+    }
+    .date{
+        font-size: 12px;
     }
 }
