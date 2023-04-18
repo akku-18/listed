@@ -1,6 +1,6 @@
 .dashboard{
     width: 100%;
-    height: 100%;
+    height: 110%;
     display: flex;
     justify-content: space-around;
     background: #eeeeee;
@@ -163,9 +163,10 @@
 
 
 .bottom-section{
+    margin-top: 20px;
     display: flex;
     justify-content:space-around;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 1024px){
@@ -234,9 +235,9 @@
     }
 }
 
-@media (max-width: 280px){
+@media (max-width: 360px){
     .topbar h1{
-        font-size: 14px;
+        font-size: 15px;
     }
     .card{
         width: 90px;
