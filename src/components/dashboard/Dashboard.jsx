@@ -14,9 +14,6 @@ import { useAuth0 } from "@auth0/auth0-react";
 import PieChart from "../graph/PieChart";
 import LineChart from "../graph/LineChart";
 import Card from "../card/Card";
-// import LineChart2 from "../graph/LineChart2";
-
-
 
 export default function Dashboard() {
   const {  logout } = useAuth0();

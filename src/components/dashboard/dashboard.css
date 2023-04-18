@@ -66,7 +66,6 @@
 .topbar{
     display: flex;
     align-items: center;
-    /* gap: 800px; */
     justify-content: space-between;
     margin-top: 20px;
 }
@@ -127,7 +126,6 @@
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     font-family: 'Lato';
     height: 120px;
 }
@@ -139,7 +137,6 @@
     font-size: 18px;
     padding-top: 40px;
     padding-bottom: 5px;
-    /* margin-bottom: -10px; */
 }
 .card-amount{
     font-family: 'Open Sans';
